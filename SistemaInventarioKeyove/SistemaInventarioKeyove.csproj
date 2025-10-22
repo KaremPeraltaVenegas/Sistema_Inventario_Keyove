@@ -67,15 +67,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="FrmWebProducto.aspx" />
+    <Content Include="Vista\FrmWebCategoria.aspx" />
+    <Content Include="Vista\FrmWebProducto.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmWebProducto.aspx.cs">
+    <Compile Include="Vista\FrmWebCategoria.aspx.cs">
+      <DependentUpon>FrmWebCategoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vista\FrmWebCategoria.aspx.designer.cs">
+      <DependentUpon>FrmWebCategoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FrmWebProducto.aspx.cs">
       <DependentUpon>FrmWebProducto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="FrmWebProducto.aspx.designer.cs">
+    <Compile Include="Vista\FrmWebProducto.aspx.designer.cs">
       <DependentUpon>FrmWebProducto.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.Master.cs">
@@ -96,6 +104,10 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Script\" />
+    <Folder Include="Styles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
