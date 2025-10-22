@@ -67,11 +67,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Script\SiteScript.js" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Vista\FormWebEntrada.aspx" />
     <Content Include="Vista\FrmWebCategoria.aspx" />
     <Content Include="Vista\FrmWebProducto.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Vista\FormWebEntrada.aspx.cs">
+      <DependentUpon>FormWebEntrada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vista\FormWebEntrada.aspx.designer.cs">
+      <DependentUpon>FormWebEntrada.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Vista\FrmWebCategoria.aspx.cs">
       <DependentUpon>FrmWebCategoria.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -105,10 +115,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Script\" />
-    <Folder Include="Styles\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
