@@ -71,6 +71,7 @@
     <Content Include="Styles\Site.css" />
     <Content Include="Vista\FormWebEntrada.aspx" />
     <Content Include="Vista\FrmWebCategoria.aspx" />
+    <Content Include="Vista\FrmWebDetalle.aspx" />
     <Content Include="Vista\FrmWebProducto.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -88,6 +89,13 @@
     </Compile>
     <Compile Include="Vista\FrmWebCategoria.aspx.designer.cs">
       <DependentUpon>FrmWebCategoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FrmWebDetalle.aspx.cs">
+      <DependentUpon>FrmWebDetalle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vista\FrmWebDetalle.aspx.designer.cs">
+      <DependentUpon>FrmWebDetalle.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vista\FrmWebProducto.aspx.cs">
       <DependentUpon>FrmWebProducto.aspx</DependentUpon>
