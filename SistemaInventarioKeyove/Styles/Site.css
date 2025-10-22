@@ -1,2 +1,100 @@
 ﻿body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+}
+
+/* 🔹 Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 220px;
+    background-color: #0d6efd;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .sidebar a {
+        color: #fff;
+        text-decoration: none;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 5px 0;
+        border-radius: 8px;
+        font-weight: 500;
+        transition: background-color 0.3s ease;
+        text-align: left;
+    }
+
+        .sidebar a:hover, .sidebar a.active {
+            background-color: #0b5ed7;
+        }
+
+    .sidebar .brand {
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+/* 🔹 Contenido principal */
+.main-content {
+    margin-left: 240px; /* ancho del sidebar + margen */
+    padding: 40px;
+}
+
+    .main-content h2 {
+        color: #0d6efd;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .main-content p {
+        color: #6c757d;
+        font-size: 1.1rem;
+    }
+
+/* 🔹 Tarjetas */
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    }
+
+    .card img {
+        width: 80px;
+        height: 80px;
+        margin: 20px auto;
+    }
+
+.card-title {
+    color: #0d6efd;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+    .btn-primary:hover {
+        background-color: #0b5ed7;
+    }
+
+/* 🔹 Footer */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #6c757d;
+    font-size: 0.9rem;
 }
