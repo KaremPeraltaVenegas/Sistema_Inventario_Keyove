@@ -111,7 +111,6 @@ C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\VB
 C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.csproj.AssemblyReference.cache
 C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.csproj.CoreCompileInputs.cache
 C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.csproj.CopyComplete
 C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.dll
@@ -175,3 +174,4 @@ C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventario
 C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.csproj.CopyComplete
 C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.dll
 C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.pdb
+C:\Users\Usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.csprojAssemblyReference.cache
