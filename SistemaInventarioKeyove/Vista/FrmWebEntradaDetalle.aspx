@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="FrmWebDetalle.aspx.cs" Inherits="SistemaInventarioKeyove.Vista.FrmWebDetalle" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="FrmWebEntradaDetalle.aspx.cs" Inherits="SistemaInventarioKeyove.Vista.FrmWebEntradaDetalle" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContenidoHeader" runat="server">
     <style>
         body { font-family: Segoe UI, sans-serif; background-color: #f4f4f4; }

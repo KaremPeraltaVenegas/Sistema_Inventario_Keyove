@@ -11,7 +11,7 @@ namespace SistemaInventarioKeyove.Vista
 {
 
 
-    public partial class FrmWebDetalle
+    public partial class FrmWebEntradaDetalle
     {
 
         /// <summary>

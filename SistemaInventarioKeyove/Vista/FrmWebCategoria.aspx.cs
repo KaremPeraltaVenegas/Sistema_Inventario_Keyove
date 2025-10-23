@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
@@ -66,3 +67,6 @@ namespace SistemaInventarioKeyove
         }
     }
 }
+=======
+﻿
+>>>>>>> 1439ac36f2a508e0f8b754f45d88912516dd0c7e

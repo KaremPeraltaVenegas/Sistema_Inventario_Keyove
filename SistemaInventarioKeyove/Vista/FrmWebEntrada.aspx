@@ -1,6 +1,4 @@
-﻿<%@ Page Title="Registro de Ingresos" Language="C#" MasterPageFile="~/Main.Master"
-    AutoEventWireup="true" CodeBehind="FormWebEntrada.aspx.cs"
-    Inherits="SistemaInventarioKeyove.FormWebEntrada" %>
+﻿<%@ Page Title="Registro de Ingresos" Language="C#" MasterPageFile="~/Main.Master"AutoEventWireup="true" CodeBehind="FrmWebEntrada.aspx.cs"Inherits="SistemaInventarioKeyove.FrmWebEntrada" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContenidoHeader" runat="server">
     <style>

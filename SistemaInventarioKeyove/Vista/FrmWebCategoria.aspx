@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="FrmWebCategoria.aspx.cs" Inherits="SistemaInventarioKeyove.FrmWebCategoria" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContenidoHeader" runat="server">
@@ -98,3 +99,7 @@
     </div>
 
 </asp:Content>
+=======
+﻿
+
+>>>>>>> 1439ac36f2a508e0f8b754f45d88912516dd0c7e

@@ -11,7 +11,7 @@ namespace SistemaInventarioKeyove
 {
 
 
-    public partial class FormWebEntrada
+    public partial class FrmWebEntrada
     {
 
         /// <summary>

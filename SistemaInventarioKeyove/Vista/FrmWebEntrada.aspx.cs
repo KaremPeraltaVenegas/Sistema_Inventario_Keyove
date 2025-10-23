@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 
 namespace SistemaInventarioKeyove
 {
-    public partial class FormWebEntrada : System.Web.UI.Page
+    public partial class FrmWebEntrada : System.Web.UI.Page
     {
         string cadena = "Data Source=LAPTOP-32FAHBS3;Initial Catalog=ProductosBD;Integrated Security=True";
 

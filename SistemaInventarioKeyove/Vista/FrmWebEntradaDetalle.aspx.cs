@@ -5,7 +5,7 @@ using System.Configuration;
 
 namespace SistemaInventarioKeyove.Vista
 {
-    public partial class FrmWebDetalle : System.Web.UI.Page
+    public partial class FrmWebEntradaDetalle : System.Web.UI.Page
     {
         // 🔹 Usa tu cadena de conexión (puedes moverla a Web.config si deseas)
         string cadena = "Data Source=LAPTOP-32FAHBS3;Initial Catalog=ProductosBD;Integrated Security=True";
