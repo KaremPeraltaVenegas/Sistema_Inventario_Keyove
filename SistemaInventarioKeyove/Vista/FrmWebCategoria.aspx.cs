@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6adc21a97579e1c592ab00c56cc429fcfbd5ac61
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
@@ -9,7 +12,11 @@ namespace SistemaInventarioKeyove
 {
     public partial class FrmWebCategoria : System.Web.UI.Page
     {
+<<<<<<< HEAD
         string conexionString = "Data Source=DESKTOP-NC03344\\MSSQLSERVER0;Initial Catalog=ProductosBD;Integrated Security=True";
+=======
+        string conexionString = "Data Source=DESKTOP-NC03344\\MSSQLSERVER01;Initial Catalog=ProductosBD;Integrated Security=True";
+>>>>>>> 6adc21a97579e1c592ab00c56cc429fcfbd5ac61
 
 
         protected void Page_Load(object sender, EventArgs e)
@@ -66,7 +73,11 @@ namespace SistemaInventarioKeyove
             CargarCategorias();
         }
     }
+<<<<<<< HEAD
 }
 =======
 ﻿
 >>>>>>> 1439ac36f2a508e0f8b754f45d88912516dd0c7e
+=======
+}
+>>>>>>> 6adc21a97579e1c592ab00c56cc429fcfbd5ac61
