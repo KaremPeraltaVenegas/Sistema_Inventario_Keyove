@@ -69,33 +69,32 @@
   <ItemGroup>
     <Content Include="Script\SiteScript.js" />
     <Content Include="Styles\Site.css" />
-    <Content Include="Vista\FormWebEntrada.aspx" />
+    <Content Include="Vista\FrmWebEntrada.aspx" />
     <Content Include="Vista\FrmWebCategoria.aspx" />
-    <Content Include="Vista\FrmWebDetalle.aspx" />
+    <Content Include="Vista\FrmWebEntradaDetalle.aspx" />
     <Content Include="Vista\FrmWebProducto.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Vista\FormWebEntrada.aspx.cs">
-      <DependentUpon>FormWebEntrada.aspx</DependentUpon>
+    <Compile Include="Vista\FrmWebEntrada.aspx.cs">
+      <DependentUpon>FrmWebEntrada.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vista\FormWebEntrada.aspx.designer.cs">
-      <DependentUpon>FormWebEntrada.aspx</DependentUpon>
+    <Compile Include="Vista\FrmWebEntrada.aspx.designer.cs">
+      <DependentUpon>FrmWebEntrada.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vista\FrmWebCategoria.aspx.cs">
       <DependentUpon>FrmWebCategoria.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Vista\FrmWebCategoria.aspx.designer.cs">
       <DependentUpon>FrmWebCategoria.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vista\FrmWebDetalle.aspx.cs">
-      <DependentUpon>FrmWebDetalle.aspx</DependentUpon>
+    <Compile Include="Vista\FrmWebEntradaDetalle.aspx.cs">
+      <DependentUpon>FrmWebEntradaDetalle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vista\FrmWebDetalle.aspx.designer.cs">
-      <DependentUpon>FrmWebDetalle.aspx</DependentUpon>
+    <Compile Include="Vista\FrmWebEntradaDetalle.aspx.designer.cs">
+      <DependentUpon>FrmWebEntradaDetalle.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vista\FrmWebProducto.aspx.cs">
       <DependentUpon>FrmWebProducto.aspx</DependentUpon>
