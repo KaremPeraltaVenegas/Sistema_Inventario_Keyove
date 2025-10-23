@@ -1,18 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="FrmWebProducto.aspx.cs" Inherits="SistemaInventarioKeyove.FrmWebProducto" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContenidoHeader" runat="server">
-    <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Gestión de Productos</title>
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-    </head>
+    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContenidoBody" runat="server">
-    <body>
-    <form id="form1" runat="server">
+    
+    
         <div class="container">
             <h2>Gestión de Productos</h2>
 
@@ -103,6 +95,5 @@
         <div class="footer text-center mt-4">
             © 2025 Sistema de Gestión de Productos | Creado por Daniela 💻
         </div>
-    </form>
-</body>
+
 </asp:Content>
