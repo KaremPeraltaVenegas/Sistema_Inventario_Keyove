@@ -3,12 +3,13 @@ using System.Data;
 using System.Data.SqlClient; // 🔹 NECESARIO para usar SQL Server
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Configuration;
 
 namespace SistemaInventarioKeyove
 {
     public partial class FrmWebProducto : System.Web.UI.Page
     {
-        string cs = "Data Source=DESKTOP-NC03344\\MSSQLSERVER01;Initial Catalog=ProductosBD;Integrated Security=True";
+        string conexion = ConfigurationManager.ConnectionStrings["ConexionBD"].ConnectionString;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -21,7 +22,7 @@ namespace SistemaInventarioKeyove
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(cs))
+                using (SqlConnection con = new SqlConnection(conexion))
                 {
                     con.Open();
                     SqlCommand cmd = new SqlCommand(
@@ -50,7 +51,7 @@ namespace SistemaInventarioKeyove
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(cs))
+                using (SqlConnection con = new SqlConnection(conexion))
                 {
                     con.Open();
                     SqlCommand cmd = new SqlCommand(
@@ -83,7 +84,7 @@ namespace SistemaInventarioKeyove
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(cs))
+                using (SqlConnection con = new SqlConnection(conexion))
                 {
                     con.Open();
                     SqlCommand cmd = new SqlCommand("DELETE FROM productos WHERE Nombre=@Nombre", con);
@@ -111,7 +112,7 @@ namespace SistemaInventarioKeyove
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(cs))
+                using (SqlConnection con = new SqlConnection(conexion))
                 {
                     SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM productos WHERE Nombre LIKE @Nombre", con);
                     da.SelectCommand.Parameters.AddWithValue("@Nombre", "%" + txtBuscar.Text + "%");
@@ -133,7 +134,7 @@ namespace SistemaInventarioKeyove
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(cs))
+                using (SqlConnection con = new SqlConnection(conexion))
                 {
                     SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM productos", con);
                     DataTable dt = new DataTable();
